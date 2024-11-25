@@ -1,0 +1,42 @@
+/* body {
+} */
+.product {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border: solid 1px rgb(255, 239, 166);
+  width: 50%;
+  margin: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+img {
+  
+  margin-right: 15px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 216, 0.254),
+    /* Halo jaune lumineux */ 0 0 5px 5px rgba(255, 248, 235, 0.655),
+    /* Aura orange */ 0 0 10px 10px rgba(255, 255, 233, 0.971); /* Diffusion plus large */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+article{
+    display: none;
+    margin-left: 20px;
+    width: 20%;
+}
+button{
+    margin-left: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(254, 249, 172, 0.78);
+}
+.show{
+    display: block;
+}
